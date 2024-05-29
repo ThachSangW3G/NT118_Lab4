@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No messages received yet"
+        android:textSize="18sp"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btnResponse1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I am fine and safe. Worry not!"
+        android:layout_below="@id/tvMessage"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnResponse2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tell my mother I love her"
+        android:layout_below="@id/btnResponse1"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnAutoResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Auto Response: OFF"
+        android:layout_below="@id/btnResponse2"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>
